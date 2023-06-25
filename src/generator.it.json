@@ -1,0 +1,439 @@
+{
+  "names": [
+    "Macarone",
+    "Sting Oh",
+    "Scorpia",
+    "Gasoline",
+    "Blind Terry",
+    "Xanax",
+    "Hannahblank",
+    "Almawt",
+    "Elvis Rando",
+    "Emmanuel",
+    "Lupe",
+    "Ratata",
+    "Ferguson",
+    "Jedidiah",
+    "Pelechian",
+    "Charlotte",
+    "Edgar Krupp",
+    "Morituri",
+    "Melanie",
+    "Manti Core",
+    "Ramon Bang Judoka ",
+    "Money",
+    "Lagrange",
+    "Gonzo Marten ",
+    "Artie Tarnowski ",
+    "Gustava",
+    "Swordfish Nina ",
+    "Fabuloso Freeman",
+    "Karakuro",
+    "Kamila Stencil ",
+    "Pa Lach",
+    "Karmillo",
+    "Andres",
+    "Costa Red",
+    "Consuelo",
+    "Salem",
+    "Bloody Marie",
+    "Apopi",
+    "Slimerella",
+    "Kino Obra",
+    "Vkitor Derniger ",
+    "De Lacroix",
+    "Purity Duval ",
+    "Gabor Love",
+    "Lucky Chang",
+    "Morgan",
+    "Decca La Blu ",
+    "Salazar",
+    "Golia",
+    "Ragna",
+    "Sorella Rachele ",
+    "Horowitz",
+    "Cotton Lagg",
+    "Suda Salima",
+    "Lady Ursula",
+    "Primus",
+    "Oscar Palma",
+    "Sunny",
+    "Gojira",
+    "Skaahv",
+    "Ho Po Wing",
+    "Sky Flamber",
+    "Cornelia",
+    "Blicero",
+    "Plato Rojo",
+    "Norah Leon",
+    "Sofia Susette ",
+    "Oratio Munoz",
+    "Gagarin",
+    "Shotgun Lili",
+    "Dolores",
+    "Indigo",
+    "Xanadu Li Grande",
+    "Palida Dominga",
+    "Maria Cannon",
+    "Francisco",
+    "Marcel Eugene",
+    "Kalinka Pro",
+    "Tsunade",
+    "Santo Sugaroube ",
+    "Sebastian I",
+    "Galaxia",
+    "Urania Schlock",
+    "Salty Grug",
+    "Turco",
+    "Sheherazade",
+    "Estella Animal",
+    "Arcibald",
+    "Tule Hogg",
+    "Anathema",
+    "Mimosa",
+    "Fermo",
+    "Trigger Vidal ",
+    "Temperance",
+    "Gatling ",
+    "Duke",
+    "Lucifero",
+    "Iside Blair",
+    "V.",
+    "Killer",
+    "Mexico",
+    "Sia"
+  ],
+  "races": [
+    {
+      "name": "Elfə",
+      "intelligenza": 1
+    },
+    {
+      "name": "Felinide",
+      "special": "Visione Notturna"
+    },
+    {
+      "name": "Imp",
+      "fisico": 1
+    },
+    {
+      "name": "Kru",
+      "special": "Becco"
+    },
+    {
+      "name": "Quaradinə",
+      "coordinazione": 1
+    },
+    {
+      "name": "Umanə",
+      "skillBonus": 1
+    }
+  ],
+  "classes": [
+    {
+      "name": "Mercenariə",
+      "allenamento": 1,
+      "variants": [
+        {
+          "name": "Schermidorə",
+          "talents": [
+            "Maestrə di Stile",
+            "Gioco di Gambe",
+            "Taglia Proiettile"
+          ],
+          "items": ["Arma elegante"]
+        },
+        {
+          "name": "Cacciatorə",
+          "talents": ["Compagnə di Caccia", "Bestiario", "Rodeo"],
+          "items": [
+            "Coltello",
+            "Corda",
+            "Tagliola",
+            "Lancia",
+            "Vecchio fucile bolt-action"
+          ]
+        },
+        {
+          "name": "Berserk",
+          "talents": ["Furia", "Verə Durə", "Protezione"],
+          "armor": 1,
+          "items": [
+            "Arma pesante",
+            "Corazza",
+            "Un ninnolo carico di valore sentimentale"
+          ]
+        },
+        {
+          "name": "Pistolerə",
+          "talents": ["Riflessi Fulminei", "Asso", "Rimbalzo"],
+          "items": ["Pistola/fucile", "Un manifesto da ricercato"]
+        }
+      ]
+    },
+    {
+      "name": "Avventurierə",
+      "skillBonus": 1,
+      "variants": [
+        {
+          "name": "Scoiattolo",
+          "talents": ["Equilibrista", "Schivata", "Esca"],
+          "items": ["Arma corta", "Pugnali da lancio", "Corda e rampino"]
+        },
+        {
+          "name": "Talpa",
+          "talents": ["Attorə", "Tasche Nascoste", "Rimpiazzo"],
+          "items": [
+            "Scarpa con vano segreto",
+            "Baffi finti",
+            "Polaroid",
+            "Derringer"
+          ]
+        },
+        {
+          "name": "Scricciolo",
+          "talents": ["Scassinatorə", "Passo Felpato", "Piccolo Amico"],
+          "items": ["Attrezzi da scasso", "Manganello", "Triboli"]
+        },
+        {
+          "name": "Lepre",
+          "talents": ["Meccanicə", "Guida Spericolata", "Pilota"],
+          "items": [
+            "Casco e occhialoni",
+            "Grossa chiave inglese",
+            "Un veicolo standard (moto o automobile)",
+            "Ninnolo appeso allo specchietto"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ricercatorə",
+      "arcano": 1,
+      "variants": [
+        {
+          "name": "Sciamanə",
+          "talents": ["Linguaggio animale", "Erborista", "Divinazione"],
+          "items": [
+            "Pipa",
+            "Sassi colorati",
+            "Una fionda",
+            "Armi in bronzo",
+            "5 bacche"
+          ],
+          "spells": [
+            {
+              "cost": 4,
+              "name": "Voce del Morto"
+            },
+            {
+              "cost": 1,
+              "name": "Crescita"
+            },
+            {
+              "cost": 3,
+              "name": "Ferinità"
+            },
+            {
+              "cost": 3,
+              "name": "Necromanzia"
+            }
+          ]
+        },
+        {
+          "name": "Accademicə",
+          "talents": ["Ricerca Occulta", "Scriba", "Topo di Biblioteca"],
+          "items": ["Diploma", "Cappello a punta"],
+          "spells": [
+            {
+              "cost": 1,
+              "name": "Trucco"
+            },
+            {
+              "cost": 4,
+              "name": "Palla di Fuoco"
+            },
+            {
+              "cost": 1,
+              "name": "Ferma Proiettili"
+            },
+            {
+              "cost": 2,
+              "name": "Sonno"
+            }
+          ]
+        },
+        {
+          "name": "Stregə",
+          "talents": ["Scarabocchio", "Famiglio", "Onirismo"],
+          "items": ["Un vestito da favola o un cencio", "Una pozione a scelta"],
+          "spells": [
+            {
+              "cost": 1,
+              "name": "Charme"
+            },
+            {
+              "cost": 2,
+              "name": "Sanguisuga"
+            },
+            {
+              "cost": 2,
+              "name": "Fattura"
+            },
+            {
+              "cost": 3,
+              "name": "Invoca"
+            }
+          ]
+        },
+        {
+          "name": "Demonologə",
+          "talents": ["Demagogə", "Fede Incontrollabile", "Torturatorə"],
+          "items": [
+            "Spada",
+            "Pistola ad avancarica",
+            "Un proiettile d'argento",
+            "Simbolo sacro",
+            "Corpo mummificato di una fata (vale come Talismano)"
+          ],
+          "spells": [
+            {
+              "cost": 2,
+              "name": "Esorcismo"
+            },
+            {
+              "cost": 1,
+              "name": "Sigillo Anti Magia"
+            },
+            {
+              "cost": 1,
+              "name": "Lampo sacro"
+            },
+            {
+              "cost": 1,
+              "name": "Purifica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jolly",
+      "special": "Fortuna",
+      "variants": [
+        {
+          "name": "Cuocə",
+          "talents": ["Carboidrati", "Arte culinaria", "Cucina sostanziosa"],
+          "armor": 1,
+          "items": [
+            "Padella (1d6 + FIS)",
+            "Wok (vale come Scudo)",
+            "Coltello",
+            "Spezie",
+            "1 slot di cibo"
+          ]
+        },
+        {
+          "name": "Mercante",
+          "talents": ["Trucchi da Mercante", "Affabile", "Bracciante"],
+          "items": ["Un mulo o un'apecar", "1d10 slot di beni comuni"]
+        },
+        {
+          "name": "Marzialista",
+          "talents": ["Arti Marziali", "Parkour", "Mossa Segreta"],
+          "items": [
+            "Fasce per le mani",
+            "Icona del tuo maestro",
+            "Un bastone o un'arma celata"
+          ]
+        },
+        {
+          "name": "Ciarlatanə",
+          "talents": ["Mentalismo", "Magnetismo", "Illusionismo"],
+          "items": [
+            "Attrezzi da mago (filo invisibile, un magnete, piccolo specchio, un sacchetto di polvere da sparo, un amo, mazzo truccato, piccolo proiettore)",
+            "Lama in un bastone"
+          ]
+        }
+      ]
+    }
+  ],
+  "spells": [
+    {
+      "cost": 3,
+      "name": "Invisibilità"
+    },
+    {
+      "cost": 2,
+      "name": "Controllo"
+    },
+    {
+      "cost": 2,
+      "name": "Anima Oggetto"
+    },
+    {
+      "cost": 2,
+      "name": "Onda d'urto"
+    },
+    {
+      "cost": 1,
+      "name": "Magia Elementale"
+    },
+    {
+      "cost": 1,
+      "name": "Revolver Arcano"
+    },
+    {
+      "cost": 3,
+      "name": "Cadavere Esplosivo"
+    },
+    {
+      "cost": 1,
+      "name": "Paura"
+    },
+    {
+      "cost": 2,
+      "name": "Banco di Nebbia"
+    },
+    {
+      "cost": 1,
+      "name": "Luce"
+    },
+    {
+      "cost": 3,
+      "name": "Forma Gassosa"
+    },
+    {
+      "cost": 4,
+      "name": "Tramutare"
+    },
+    {
+      "cost": 5,
+      "name": "Dissoluzione Arcana"
+    },
+    {
+      "cost": 1,
+      "name": "Chiudi Serratura"
+    },
+    {
+      "cost": 2,
+      "name": "Sciame"
+    },
+    {
+      "cost": 1,
+      "name": "Rivelazione del Magico"
+    },
+    {
+      "cost": 4,
+      "name": "Ingrandisci Creatura"
+    },
+    {
+      "cost": 1,
+      "name": "Guida"
+    },
+    {
+      "cost": 4,
+      "name": "Guasto"
+    }
+  ]
+}
