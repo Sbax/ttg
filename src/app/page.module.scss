@@ -22,7 +22,7 @@
   display: grid;
   margin-bottom: 1em;
 
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     column-gap: 2em;
     margin-bottom: 3em;
   }
@@ -33,7 +33,7 @@
     margin-top: 1em;
   }
 
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     grid-template-columns: 1fr 1fr;
 
     > section + section {
@@ -43,14 +43,14 @@
 }
 
 .details {
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     grid-template-columns: 2fr 1fr;
   }
 }
 
 .box {
   padding-bottom: 1em;
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     min-height: 10em;
   }
 }
@@ -63,7 +63,7 @@
   align-items: baseline;
   margin-bottom: 1em;
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     background: none !important;
     flex-direction: column;
     margin-bottom: 0;
@@ -71,7 +71,7 @@
 }
 
 .extra {
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     grid-row: 1;
 
     display: grid;
@@ -80,7 +80,7 @@
   }
 
   p {
-    @media only screen and (min-width: 600px) {
+    @media (min-width: 600px) {
       margin-bottom: 2em;
     }
 
