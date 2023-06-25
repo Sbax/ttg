@@ -20,36 +20,70 @@
 .values,
 .details {
   display: grid;
-  column-gap: 2em;
+  margin-bottom: 1em;
 
-  margin-bottom: 3em;
+  @media only screen and (min-width: 600px) {
+    column-gap: 2em;
+    margin-bottom: 3em;
+  }
 }
 
 .values {
-  grid-template-columns: 1fr 1fr;
+  > section + section {
+    margin-top: 1em;
+  }
+
+  @media only screen and (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+
+    > section + section {
+      margin-top: 0;
+    }
+  }
 }
 
 .details {
-  grid-template-columns: 2fr 1fr;
-
-  * + * {
-    margin-top: 1em;
+  @media only screen and (min-width: 600px) {
+    grid-template-columns: 2fr 1fr;
   }
 }
 
 .box {
-  min-height: 10em;
+  padding-bottom: 1em;
+  @media only screen and (min-width: 600px) {
+    min-height: 10em;
+  }
 }
 
 .heading {
   display: flex;
+  flex-direction: row;
+
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 1em;
+
+  @media only screen and (max-width: 600px) {
+    background: none !important;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
 }
 
 .extra {
+  @media only screen and (max-width: 600px) {
+    grid-row: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+  }
+
   p {
+    @media only screen and (min-width: 600px) {
+      margin-bottom: 2em;
+    }
+
     font-size: 1.2em;
     display: flex;
     flex-direction: column;

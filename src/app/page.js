@@ -178,7 +178,6 @@ export default function Home() {
               )}
             >
               <h2>Talenti</h2>
-              <span>&nbsp;</span>
             </section>
             <p>
               {[race.special, characterClass.special, talent]
